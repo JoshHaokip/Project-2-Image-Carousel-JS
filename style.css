@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.text {
+  position: relative;
+  height: 225px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  top: 15px;
+}
+
+.text #text-top {
+  position: relative;
+  top: 20px;
+  font-size: 12px;
+  font-weight: 300;
+  width: auto;
+  height: auto;
+  float: left;
+  left: 10px;
+}
+
+.text #text-pula {
+  font-size: 125px;
+  font-weight: 450;
+  width: auto;
+  height: auto;
+  float: none;
+}
+
+.text #text-cro {
+  position: relative;
+  bottom: 20px;
+  font-size: 12px;
+  font-weight: 300;
+  width: auto;
+  height: auto;
+  float: right;
+}
+
+
+
+.carousel {
+
+  max-width: 700px;
+  position: relative;
+  margin: auto;
+
+}
+
+.images {
+
+  display: none;
+
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+.controls .arrow {
+  position: absolute;
+  top: 45%;
+  cursor: pointer;
+}
+
+.controls .arrow i {
+  color: white;
+  font-size: 55px;
+  opacity: 0.6;
+}
+
+.right {
+  right: 25px;
+}
+
+.left {
+  left: 25px;
+}
+
+.controls .btn {
+  position: absolute;
+  margin: 0% 45%;
+  bottom: 10%;
+  cursor: pointer;
+  font-size: 25px;
+  border-style: none;
+}
