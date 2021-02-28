@@ -41,7 +41,7 @@ My goal is to showcase my increased knowledge of JavaScript by creating my own i
 - HTML
 - CSS
 - JavaScript
-- Event Listners
+- Event Listeners
 - For Loops
 - Switch Statements
 - DOM Manipulation
